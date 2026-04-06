@@ -3,7 +3,7 @@ node_modules/
 dist/
 **/dist/
 .mongo-data/
-apps/backend/exports/
+backend/exports/
 .env
 .env.*
 *.log

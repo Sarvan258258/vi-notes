@@ -8,7 +8,7 @@ Authenticity verification platform for human writing. This repo includes a web a
 
 ## Setup
 1. npm install
-2. Create apps/backend/.env with MONGO_URI=mongodb://localhost:27017/vi-notes
+2. Create backend/.env with MONGO_URI=mongodb://localhost:27017/vi-notes
 
 ## Run (two terminals)
 1. npm run dev:backend
@@ -23,7 +23,7 @@ Open the web app at http://localhost:5173/
 ## Export training data
 Export writing sessions for ML training (CSV by default):
 
-1. npm --workspace apps/backend run export:sessions -- --format csv --out exports/sessions.csv
+1. npm --workspace backend run export:sessions -- --format csv --out exports/sessions.csv
 
 Optional flags:
 - --format csv
